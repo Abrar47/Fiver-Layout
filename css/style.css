@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+
+}
+header{
+    background-color: black;
+    text-align: center;
+    padding: 2px;
+}
+header h1{color: white;}
+header h1 a{
+    text-decoration: none;
+    color: seagreen;
+    font-size: 14px;
+}
+nav{
+    border-bottom: 1px solid #666;
+}
+nav ul{
+    padding: 0;
+    text-align: center;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #5d5a5a;
+    font-size: 14px;
+    padding: 5px 15px;
+    display: block;
+}
+nav ul li a:hover{
+    background-color: seagreen;
+    color: #fff;
+}
+
+
+.heading{
+    text-align: center;
+    padding: 50px 0;
+}
+.heading h1{
+    font-size: 25px;
+}
+.heading p{
+    font-size: 14px;
+}
+
+.container{
+    margin: auto;
+    width: 1000px;
+}
+aside{
+    width: 19%;
+    float: left;
+    padding: 5px;
+}
+aside ul{padding: 0;}
+aside ul li{
+    list-style-type: none;
+    padding: 6px;
+}
+aside ul li a{
+    text-decoration: none;
+    padding: 7px;
+    color: #92928c;
+}
+aside ul li a:hover{
+    color: black;
+}
+
+
+
+.content{
+    float: left;
+    width: 80%;
+    padding: 5px 5px 70px 5px;
+}
+.content .content-box{
+    width: 33.33%;
+    float: left;
+    padding: 15px;
+}
+.content .content-box img{
+    max-width: 100%;
+}
+.content .content-box img:hover{opacity: 0.4;}
+.content .content-box h4{
+    color: #666;
+    font-size: 14px;
+}
+
+
+footer{
+    overflow: hidden;
+    width: 100%;
+    float: left;
+}
+.main-box{float: left;width: 100%;padding: 50px 20px;background-color: #d8d8d8;}
+.main-box .box{text-align: center;float: left;width: 33.33%;display: block;padding: 0 28px;}
+.main-box .box h2{}
+.main-box .box span{}
+.main-box .box p{}
+
+
